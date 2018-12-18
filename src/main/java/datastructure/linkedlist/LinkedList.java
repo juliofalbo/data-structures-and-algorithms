@@ -3,12 +3,9 @@ package datastructure.linkedlist;
 public class LinkedList<T> {
 
     private static class Node<T> {
-
         T data;
-
         Node next;
-
-        public Node(T data) {
+        private Node(T data) {
             this.data = data;
         }
     }
