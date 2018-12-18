@@ -80,7 +80,14 @@ public class LinkedList<T> {
     }
 
     public void removeBack() {
-        head = head.next;
+        validateHead();
+        Node current = head;
+        Node previous = null;
+        while (current.next != null) {
+            previous = current;
+            current = current.next;
+        }
+        previous.next = null;
     }
 
     public void deleteValue(final T data) {

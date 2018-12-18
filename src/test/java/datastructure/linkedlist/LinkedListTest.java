@@ -106,5 +106,17 @@ public class LinkedListTest {
         Assert.assertEquals(3, (int) linkedList.getFirst());
     }
 
-    // Remove back
+    @Test
+    public void removeBack() {
+        linkedList.addBack(1);
+        linkedList.addBack(2);
+        linkedList.addBack(3);
+
+        linkedList.removeBack();
+        Assert.assertEquals(2, (int) linkedList.getLast());
+
+        linkedList.removeBack();
+        Assert.assertEquals(1, (int) linkedList.getLast());
+    }
+
 }

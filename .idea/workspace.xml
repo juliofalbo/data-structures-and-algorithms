@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ef64555-cc52-457c-843a-f9b1d17a6d47" name="Default Changelist" comment="" />
+    <list default="true" id="2ef64555-cc52-457c-843a-f9b1d17a6d47" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datastructure/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructure/linkedlist/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/datastructure/linkedlist/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/datastructure/linkedlist/LinkedListTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,12 +46,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="1217" />
+          <entry key="java" value="1287" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1217" />
+          <entry key="JAVA" value="1287" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -57,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/datastructure/linkedlist/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+            <state relative-caret-position="100">
+              <caret line="81" column="4" lean-forward="true" selection-start-line="81" selection-start-column="4" selection-end-line="90" selection-end-column="5" />
               <folding>
                 <element signature="e#164#165#0" expanded="true" />
                 <element signature="e#203#204#0" expanded="true" />
@@ -68,8 +73,6 @@
                 <element signature="e#1196#1197#0" expanded="true" />
                 <element signature="e#1153#1154#0" expanded="true" />
                 <element signature="e#1180#1181#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
-                <element signature="e#1256#1257#0" expanded="true" />
                 <element signature="e#1279#1280#0" expanded="true" />
                 <element signature="e#1314#1315#0" expanded="true" />
               </folding>
@@ -80,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/datastructure/linkedlist/LinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="109" selection-start-line="109" selection-end-line="109" />
+            <state relative-caret-position="285">
+              <caret line="115" column="28" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -94,6 +97,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -114,8 +120,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/datastructure/linkedlist/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/test/java/datastructure/linkedlist/LinkedListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datastructure/linkedlist/LinkedList.java" />
       </list>
     </option>
   </component>
@@ -135,6 +141,7 @@
     <option name="width" value="1922" />
     <option name="height" value="1053" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="false" />
@@ -176,28 +183,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="datastructure-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructure-algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastructure-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructure-algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="datastructure-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datastructure-algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -212,7 +197,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545165964243" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545166397179" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../algorithms101" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
@@ -234,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest.removeFront">
+  <component name="RunManager" selected="JUnit.LinkedListTest.removeBack">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -257,23 +242,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="datastructure.linkedlist" />
       <option name="MAIN_CLASS_NAME" value="datastructure.linkedlist.LinkedListTest" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTest.addFront" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="datastructure-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="datastructure.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="datastructure.linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="datastructure.linkedlist.LinkedListTest" />
-      <option name="METHOD_NAME" value="addFront" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -307,6 +275,23 @@
       <option name="PACKAGE_NAME" value="datastructure.linkedlist" />
       <option name="MAIN_CLASS_NAME" value="datastructure.linkedlist.LinkedListTest" />
       <option name="METHOD_NAME" value="deleteValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.removeBack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datastructure-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="datastructure.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="datastructure.linkedlist.LinkedListTest" />
+      <option name="METHOD_NAME" value="removeBack" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -354,19 +339,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.LinkedListTest.addFront" />
       <item itemvalue="JUnit.LinkedListTest" />
       <item itemvalue="JUnit.LinkedListTest.deleteValue" />
       <item itemvalue="JUnit.LinkedListTest.contains" />
       <item itemvalue="JUnit.LinkedListTest.removeFront" />
+      <item itemvalue="JUnit.LinkedListTest.removeBack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinkedListTest.removeBack" />
         <item itemvalue="JUnit.LinkedListTest.removeFront" />
         <item itemvalue="JUnit.LinkedListTest.contains" />
         <item itemvalue="JUnit.LinkedListTest" />
         <item itemvalue="JUnit.LinkedListTest.deleteValue" />
-        <item itemvalue="JUnit.LinkedListTest.addFront" />
       </list>
     </recent_temporary>
   </component>
@@ -384,21 +369,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkedListTest_deleteValue - 2018.12.18 at 16h 53m 50s.xml">
-      <configuration name="LinkedListTest.deleteValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_deleteValue - 2018.12.18 at 16h 54m 40s.xml">
-      <configuration name="LinkedListTest.deleteValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_deleteValue - 2018.12.18 at 16h 55m 28s.xml">
-      <configuration name="LinkedListTest.deleteValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest - 2018.12.18 at 16h 55m 34s.xml">
-      <configuration name="LinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_contains - 2018.12.18 at 18h 43m 27s.xml">
-      <configuration name="LinkedListTest.contains" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LinkedListTest_contains - 2018.12.18 at 18h 43m 37s.xml">
       <configuration name="LinkedListTest.contains" configurationId="JUnit" />
     </history-entry>
@@ -413,6 +383,21 @@
     </history-entry>
     <history-entry file="LinkedListTest_removeFront - 2018.12.18 at 18h 45m 39s.xml">
       <configuration name="LinkedListTest.removeFront" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_removeBack - 2018.12.18 at 18h 48m 25s.xml">
+      <configuration name="LinkedListTest.removeBack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_removeBack - 2018.12.18 at 18h 48m 45s.xml">
+      <configuration name="LinkedListTest.removeBack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_removeBack - 2018.12.18 at 18h 50m 13s.xml">
+      <configuration name="LinkedListTest.removeBack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_removeBack - 2018.12.18 at 18h 52m 31s.xml">
+      <configuration name="LinkedListTest.removeBack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_removeBack - 2018.12.18 at 18h 52m 48s.xml">
+      <configuration name="LinkedListTest.removeBack" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -430,18 +415,18 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.33010754" />
       <window_info anchor="bottom" id="CheckStyle" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" weight="0.32975295" />
       <window_info anchor="bottom" id="Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32975295" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39957035" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39892474" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -473,11 +458,32 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/datastructure/linkedlist/LinkedList.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>current</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>previous</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>findTail()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>linkedList</expression-string>
         <language-id>JAVA</language-id>
@@ -494,11 +500,6 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>current</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
         <expression-string>current.next</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -509,17 +510,7 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>findTail()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
         <expression-string>head.next</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>current.next.data</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -553,8 +544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datastructure/linkedlist/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+        <state relative-caret-position="100">
+          <caret line="81" column="4" lean-forward="true" selection-start-line="81" selection-start-column="4" selection-end-line="90" selection-end-column="5" />
           <folding>
             <element signature="e#164#165#0" expanded="true" />
             <element signature="e#203#204#0" expanded="true" />
@@ -564,8 +555,6 @@
             <element signature="e#1196#1197#0" expanded="true" />
             <element signature="e#1153#1154#0" expanded="true" />
             <element signature="e#1180#1181#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#1256#1257#0" expanded="true" />
             <element signature="e#1279#1280#0" expanded="true" />
             <element signature="e#1314#1315#0" expanded="true" />
           </folding>
@@ -574,8 +563,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/datastructure/linkedlist/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        <state relative-caret-position="285">
+          <caret line="115" column="28" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
         </state>
       </provider>
     </entry>
