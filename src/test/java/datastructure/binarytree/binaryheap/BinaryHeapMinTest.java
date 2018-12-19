@@ -22,12 +22,12 @@ public class BinaryHeapMinTest {
     @Test
     public void insert() throws Exception {
         minHeap.print();
-        Assert.assertEquals(1, minHeap.items[0].getKey());
-        Assert.assertEquals(3, minHeap.items[1].getKey());
-        Assert.assertEquals(2, minHeap.items[2].getKey());
-        Assert.assertEquals(6, minHeap.items[3].getKey());
-        Assert.assertEquals(4, minHeap.items[4].getKey());
-        Assert.assertEquals(5, minHeap.items[5].getKey());
+        Assert.assertEquals(1, minHeap.children[0].getKey());
+        Assert.assertEquals(3, minHeap.children[1].getKey());
+        Assert.assertEquals(2, minHeap.children[2].getKey());
+        Assert.assertEquals(6, minHeap.children[3].getKey());
+        Assert.assertEquals(4, minHeap.children[4].getKey());
+        Assert.assertEquals(5, minHeap.children[5].getKey());
     }
 
     @Test

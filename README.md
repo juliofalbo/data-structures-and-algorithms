@@ -103,6 +103,8 @@ BinarySearchTreeTest.java
 
 Binary Heap is a strategy used to create a binary tree based on indices to define who is the parent, who is the child on the right and who is the child on the left.
 
+Unlike a traditional binary tree, this algorithm creates an array of children (nodes) and the hierarchical structure of the tree is defined through the indices, as informed above.
+
 There are 2 ways to use this algorithm.
 - Using the **MAX** standard, we follow the pattern that the highest value node will always remain root, thus facilitating the recovery of your children. That is, if a node with a high value is later inserted, that node will go up in the hierarchy of the tree.
 - Using the **MIN**, we follow the pattern that the lowest value node will always be root, creating a perfect balance of the tree structure.

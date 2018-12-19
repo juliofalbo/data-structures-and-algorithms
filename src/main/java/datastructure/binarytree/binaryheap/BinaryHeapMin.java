@@ -7,7 +7,7 @@ public class BinaryHeapMin {
 
     private int size = 0;
 
-    public NodeHeap[] items = new NodeHeap[capactity];
+    public NodeHeap[] children = new NodeHeap[capactity];
 
     private int leftChildIndex(int parentIndex) {
         return 2 * parentIndex + 1;
@@ -34,26 +34,26 @@ public class BinaryHeapMin {
     }
 
     private NodeHeap leftChild(int index) {
-        return items[leftChildIndex(index)];
+        return children[leftChildIndex(index)];
     }
 
     private NodeHeap rightChild(int index) {
-        return items[rightChildIndex(index)];
+        return children[rightChildIndex(index)];
     }
 
     private NodeHeap parent(int index) {
-        return items[parentIndex(index)];
+        return children[parentIndex(index)];
     }
 
     private void swap(int indexOne, int indexTwo) {
-        NodeHeap temp = items[indexOne];
-        items[indexOne] = items[indexTwo];
-        items[indexTwo] = temp;
+        NodeHeap temp = children[indexOne];
+        children[indexOne] = children[indexTwo];
+        children[indexTwo] = temp;
     }
 
     private void ensureCapactity() {
         if (size == capactity) {
-            items = Arrays.copyOf(items, capactity * 2);
+            children = Arrays.copyOf(children, capactity * 2);
             capactity *= 2;
         }
     }
@@ -63,8 +63,8 @@ public class BinaryHeapMin {
         if (size == 0) {
             throw new IllegalStateException();
         }
-        NodeHeap item = items[0];
-        items[0] = items[size - 1];
+        NodeHeap item = children[0];
+        children[0] = children[size - 1];
         size--;
         heapifyDown();
         return item;
@@ -72,14 +72,14 @@ public class BinaryHeapMin {
 
     public void add(NodeHeap item) {
         ensureCapactity();
-        items[size] = item;
+        children[size] = item;
         size++;
         heapifyUp();
     }
 
     public void heapifyUp() {
         int index = size - 1;
-        while (hasParent(index) && parent(index).getKey() > items[index].getKey()) {
+        while (hasParent(index) && parent(index).getKey() > children[index].getKey()) {
             swap(parentIndex(index), index);
             index = parentIndex(index);
         }
@@ -92,7 +92,7 @@ public class BinaryHeapMin {
             if (hasRightChild(index) && rightChild(index).getKey() < leftChild(index).getKey()) {
                 smallerChildIndex = rightChildIndex(index);
             }
-            if (items[index].getKey() < items[smallerChildIndex].getKey()) {
+            if (children[index].getKey() < children[smallerChildIndex].getKey()) {
                 break;
             } else {
                 swap(index, smallerChildIndex);
@@ -104,7 +104,7 @@ public class BinaryHeapMin {
 
     public void print() {
         for (int i = 0; i < size; i++) {
-            System.out.println(i + "[" + items[i].getKey() + "]");
+            System.out.println(i + "[" + children[i].getKey() + "]");
         }
     }
 

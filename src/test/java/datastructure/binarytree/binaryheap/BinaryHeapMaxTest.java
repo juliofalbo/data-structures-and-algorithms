@@ -24,11 +24,11 @@ public class BinaryHeapMaxTest {
         maxHeap.print();
 
         // Test insert
-        Assert.assertEquals(99, maxHeap.items[0].getKey());
-        Assert.assertEquals(81, maxHeap.items[1].getKey());
-        Assert.assertEquals(19, maxHeap.items[2].getKey());
-        Assert.assertEquals(22, maxHeap.items[3].getKey());
-        Assert.assertEquals(67, maxHeap.items[4].getKey());
+        Assert.assertEquals(99, maxHeap.children[0].getKey());
+        Assert.assertEquals(81, maxHeap.children[1].getKey());
+        Assert.assertEquals(19, maxHeap.children[2].getKey());
+        Assert.assertEquals(22, maxHeap.children[3].getKey());
+        Assert.assertEquals(67, maxHeap.children[4].getKey());
     }
 
     @Test
