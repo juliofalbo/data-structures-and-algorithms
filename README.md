@@ -99,6 +99,8 @@ By default, a binary tree has the following characteristics.
 BinarySearchTreeTest.java
 ``` 
 
+___
+
 ## Binary Heap
 
 Binary Heap is a strategy used to create a binary tree based on indices to define who is the parent, who is the child on the right and who is the child on the left.
@@ -116,6 +118,54 @@ This is a **high performance algorithm** because its way of extracting nodes is 
 BinaryHeapMaxTest.java
 BinaryHeapMinTest.java
 ``` 
+
+___
+
+## Memoization
+
+Memoization is a strategy used to optimize recursion.
+
+This strategy consists of creating an array and indexing the recursive results.
+
+For example, a purely recursive Fibonacci algorithm was created and another using Memoization and a test was performed comparing the execution time of each one.
+
+###### Test Class
+```$xslt
+FibonacciTest.java
+``` 
+
+___
+
+## Sorting Algorithms
+
+There are 3 basic algorithms for sorting and they are:
+- Bubble Sort
+- Merge Sort
+- Quick Sort
+
+Below I will explain each one better
+
+#### Bubble Sort 
+The strategy used by Bubble Sort Algorithm is to compare an object with the **next object** in the list.
+
+This approach is functional but **not very performative**, since it is an algorithm with a run-time characteristic **O(n^2)**
+
+###### Test Class
+```$xslt
+BubbleSortTest.java
+``` 
+
+#### Merge Sort 
+
+The strategy used by Merge Sort Algorithm consists of **split the array into 2 parts**, until on only isolated objects.
+
+The isolate objects are compared, ordered and regrouped in sequence. (as a merge)
+
+###### Test Class
+```$xslt
+MergeSortTest.java
+``` 
+
 ___
 
 ##### References:
