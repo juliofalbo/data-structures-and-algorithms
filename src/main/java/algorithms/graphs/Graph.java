@@ -66,7 +66,7 @@ class Graph {
         while (!stack.isEmpty()) {
             int current = stack.pop();
             path.append(current);
-            System.out.print(current + " ");
+            System.out.println("Popping - " + current);
 
             Iterator<Integer> i = adjacencies[current].listIterator();
             while (i.hasNext()) {
@@ -74,6 +74,7 @@ class Graph {
                 if (!visited[n]) {
                     stack.add(n);
                     visited[n] = true;
+                    System.out.println("Pushing - " + n);
                 }
             }
         }
