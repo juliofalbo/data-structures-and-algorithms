@@ -123,7 +123,7 @@ ___
 
 ## Memoization
 
-Memoization is a strategy used to optimize recursion.
+Memoization is a strategy used to **optimize recursion**.
 
 This strategy consists of creating an array and indexing the recursive results.
 
@@ -148,7 +148,7 @@ Below I will explain each one better
 #### Bubble Sort 
 The strategy used by Bubble Sort Algorithm is to compare an object with the **next object** in the list.
 
-This approach is functional but **not very performative**, since it is an algorithm with a run-time characteristic **O(n^2)**
+This approach is functional but **not very performative**, since it is an algorithm with a runtime characteristic **O(n^2)**
 
 ###### Test Class
 ```$xslt
