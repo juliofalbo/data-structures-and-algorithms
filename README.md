@@ -166,6 +166,21 @@ The isolate objects are compared, ordered and regrouped in sequence. (as a merge
 MergeSortTest.java
 ``` 
 
+#### Quick Sort
+The strategy used by Quick Sort Algorithm is to determine a focal point, called **pivot** (usually the middle object of the array, **but this is not a rule**), retrieve the first and last object (calling left and right) and compare values with the pivot value.
+
+Objects larger than pivot **will move to the right** and **smaller objects to the left**.
+
+At the end of this comparison, the algorithm separates the list into 2 lists and repeats the same process until all objects are sorted.
+
+This algorithm is quite perfomatic and is classified with the **O(n log n)** runtime characteristic and of the three types presented is the **most performative**.
+
+###### Test Class
+```$xslt
+QuickSortTest.java
+``` 
+
+
 ___
 
 ##### References:

@@ -9,12 +9,12 @@ public class QuickSortTest {
     private QuickSort quickSort;
 
     @Before
-    public void SetUp() throws Exception {
+    public void setUp() {
         quickSort = new QuickSort();
     }
 
     @Test
-    public void Sort() throws Exception {
+    public void sort() {
         int[] array = {15, 3, 2, 1, 9, 5, 7, 8, 6};
 
         int[] sorted = quickSort.sort(array);
@@ -29,7 +29,7 @@ public class QuickSortTest {
         Assert.assertEquals(9, sorted[7]);
         Assert.assertEquals(15, sorted[8]);
 
-        quickSort.prettyPrint(sorted);
+        quickSort.printArray(sorted);
     }
 
 }
