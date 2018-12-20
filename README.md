@@ -179,8 +179,119 @@ This algorithm is quite perfomatic and is classified with the **O(n log n)** run
 ```$xslt
 QuickSortTest.java
 ``` 
+___
+
+## Graphs
+Graphs can use 2 strategies:
+- Directed (Unidirectional)
+- Undirected (Bidirectional)
+
+Your data structure has 3 settings:
+- **Edge List**
+- **Adjacency Matrix**
+- **Adjacency List**
+
+To exemplify the data structure of a graph, I will use the following examples:
+
+![Directed](https://i.ibb.co/58SFwbN/graph.png)
+
+#### Edge List
+It consists of the mapping relationship between the elements.
+###### Directed
+```
+[0,1]
+[1,3]
+[1,5]
+[4,3]
+[3,6]
+[3,7]
+[7,8]
+```
+###### Undirected
+```
+[0,1][1,0]
+[1,3][3,1]
+[1,5][5,1]
+[4,3][3,4]
+[3,6][6,3]
+[3,7][7,3]
+[7,8][8,7]
+```
+
+### Adjacency Matrix
+It consists of the matrix of mapped relationships in the Edge List
+###### Directed
+```
+  0 1 3 4 5 6 7 8
+0 0 1 0 0 0 0 0 0
+1 0 0 1 0 1 0 0 0
+3 0 0 0 0 0 1 1 0
+4 0 0 1 0 0 0 0 0
+5 0 0 0 0 0 0 0 0
+6 0 0 0 0 0 0 0 0
+7 0 0 0 0 0 0 0 1
+8 0 0 0 0 0 0 0 0
+```
+###### Undirected
+```
+  0 1 3 4 5 6 7 8
+0 0 1 0 0 0 0 0 0
+1 1 0 1 0 1 0 0 0
+3 0 1 0 1 0 1 1 0
+4 0 0 1 0 0 0 0 0
+5 0 1 0 0 0 0 0 0
+6 0 0 1 0 0 0 0 0
+7 0 0 1 0 0 0 0 1
+8 0 0 0 0 0 0 1 0
+```
+
+### Adjacency List
+Consists of listing the mapped relationship in the Edge List through an array of LinkedList
+###### Directed
+```
+0 -> [1]
+1 -> [3,5]
+3 -> [6,7]
+4 -> [3]
+5 -> []
+6 -> []
+7 -> [8]
+8 -> []
+```
+###### Undirected
+```
+0 -> [1]
+1 -> [0,3,5]
+3 -> [1,4,6,7]
+4 -> [3]
+5 -> [1]
+6 -> [3]
+7 -> [3,8]
+8 -> [7]
+```
+
+### Graph Algorithms
+
+There are 2 types of algorithms when we talk about graphs:
+- Breadth First Search (BFS)
+- Depth First Search (DFS)
+
+### Breadth First Search (BFS)
+The BFS algorithm consists of defining the initial element and from that element recover its first level neighbors. 
+
+After calculating all first-level neighbors, the algorithm passes to the 2-level neighbors and assumes successively.
+
+It is also important to remember that this algorithm uses the **Queue concept (FIFO)** to scan the graphs.
+
+### Depth First Search (DFS)
+The DFS algorithm consists of defining an initial element and from this element retrieve any hierarchical structure of its children. 
+
+Unlike BFS, this algorithm does not wait for the computation of the first-level neighbors to advance the level. When you verify that the element under analysis has children, it calculates all children of that element to jump to the other element of the same level.
+
+It is also important to remember that this algorithm uses the **Stack concept (LIFO)** to scan the graphs.
 
 
+**It is important to note that in the 2 algorithms (BFS and DFS), the already analyzed elements are marked as visited to avoid a StackOverflowError.**
 ___
 
 ##### References:
