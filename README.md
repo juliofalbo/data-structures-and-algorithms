@@ -276,14 +276,14 @@ There are 2 types of algorithms when we talk about graphs:
 - Breadth First Search (BFS)
 - Depth First Search (DFS)
 
-### Breadth First Search (BFS)
+#### Breadth First Search (BFS)
 The BFS algorithm consists of defining the initial element and from that element recover its first level neighbors. 
 
 After calculating all first-level neighbors, the algorithm passes to the 2-level neighbors and assumes successively.
 
 It is also important to remember that this algorithm uses the **Queue concept (FIFO)** to scan the graphs.
 
-### Depth First Search (DFS)
+#### Depth First Search (DFS)
 The DFS algorithm consists of defining an initial element and from this element retrieve any hierarchical structure of its children. 
 
 Unlike BFS, this algorithm does not wait for the computation of the first-level neighbors to advance the level. When you verify that the element under analysis has children, it calculates all children of that element to jump to the other element of the same level.
