@@ -292,6 +292,11 @@ It is also important to remember that this algorithm uses the **Stack concept (L
 
 
 **It is important to note that in the 2 algorithms (BFS and DFS), the already analyzed elements are marked as visited to avoid a StackOverflowError.**
+
+###### Test Class
+```$xslt
+GraphTest.java
+``` 
 ___
 
 ##### References:
